@@ -16,13 +16,11 @@ main()
     std::cin >> metros;
 
     float calc = metros / 3;
-    float latas = metros;
-    //
-    // if (std::ceil(calc, 18) > 0)
-    // {
-    //     latas++;
-    // }
+    int latas = std::ceil(calc / 18);
 
-    std::cout << "O numero de latas e: " << latas;
+    float preco_total = latas * 80.0;
+
+    std::cout << "O numero de latas e: " << latas << ". O preco total e: R$ " << preco_total;
+
     return 0;
 }
