@@ -16,7 +16,7 @@ main()
     std::cin >> metros;
 
     float calc = metros / 3;
-    float latas = std::ceil(calc, 18);
+    float latas = metros;
     //
     // if (std::ceil(calc, 18) > 0)
     // {
