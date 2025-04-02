@@ -6,17 +6,11 @@
 
 int main()
 {
-    std::string nome;
-    int idade;
-
-    std::cout << "Insira o nome do usuario: ";
-    std::cin >> nome;
-
-    std::cout << "Insira a idade do usuario: ";
-    std::cin >> idade;
-
-    UserModel user(nome, idade);
     UserView view;
+
+    std::string nome = view.getNome();
+    int idade = view.getIdade();
+    UserModel user(nome, idade);
     UserController controller(user, view);
 
     controller.setNomeUsuario(nome);

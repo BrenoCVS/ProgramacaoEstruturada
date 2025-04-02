@@ -8,6 +8,8 @@ class UserView
 {
 public:
     void displayUser(const std::string &nome, int idade);
+    std::string getNome();
+    int getIdade();
 };
 
 #endif
