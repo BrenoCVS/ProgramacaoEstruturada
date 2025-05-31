@@ -64,7 +64,7 @@ int main() {
         pets.push_back(pet);
     }
 
-    // Exibir todos os cadastros
+
     cout << "\n=== Lista de PETs Cadastrados ===\n";
     for (int i = 0; i < pets.size(); i++) {
         cout << "\nPET #" << i + 1 << endl;
@@ -77,12 +77,12 @@ int main() {
         cout << "RG do dono: " << pets[i].dono.rg << endl;
         cout << "Telefone do dono: " << pets[i].dono.telefone << endl;
 
-        arquivo << endl:
+
 
 
     }
 
-    arquivo.close();
+
 
     return 0;
 }
