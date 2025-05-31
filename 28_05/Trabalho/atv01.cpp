@@ -1,24 +1,26 @@
 //Escreva um programa em C++ para armazenar 10 números em um vetor. 
-//Imprima os números do vetor. Calcule e imprima a soma desses números. 
+//Imprima os números do vetor. Calcule e imprima a soma desses números.
 
 #include <iostream>
 using namespace std;
-int main() {
-    int array[10];
+
+int main(){
+    int numeros[10];
     int soma = 0;
-
-    for (int i = 0; i < 10; i++) {
-        cin >> array[i];
-        soma += array[i];
+    cout << "Digite 10 numeros:" << endl;
+    
+    for (int cont = 0; cont < 10; cont++){
+        cout << "Insira o numero " << cont + 1 << ": ";
+        cin >> numeros[cont];
+        soma += numeros[cont];
     }
 
-    cout << "Os numeros digitados foram: ";
-    for (int i = 0; i < 10; i++) {
-        cout << array[i] << " - ";
+    cout << "Os numeros digitados sao: ";
+    for(int cont = 0; cont < 10; cont++){
+        cout << numeros[cont] << " - "; 
     }
+
     cout << endl;
+    cout << "A soma dos valoeres é: " << soma << endl;
 
-    cout << "A soma dos numeros digitas foi: " << soma << endl;
-
-    return 0;
 }
