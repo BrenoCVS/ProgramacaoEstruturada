@@ -2,7 +2,6 @@
 #include <fstream>
 using namespace std;
 
-// Estrutura para armazenar dados do produto
 struct Prod {
     int cod;
     float preco_custo;
@@ -10,7 +9,6 @@ struct Prod {
     int quant;
 };
 
-// Função que calcula o lucro do produto
 float lucro(Prod p) {
     return (p.preco_venda - p.preco_custo) * p.quant;
 }
@@ -39,7 +37,7 @@ int main() {
         cout << "Informe a quantidade em estoque do produto: ";
         cin >> prod.quant;
 
-        float l = lucro(prod); // Calcula o lucro usando a struct
+        float l = lucro(prod);
 
         cout << "O produto: " << prod.cod << " pode gerar R$ " << l << " de lucro." << endl;
 
