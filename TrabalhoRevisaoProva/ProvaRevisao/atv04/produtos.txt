@@ -1,0 +1,12 @@
+Codigo do produto: 1
+Preco de custo: 32
+Preco de venda: 65
+Quantidade em estoque: 4
+Lucro estimado: R$ 132
+---------------------------
+Codigo do produto: 2
+Preco de custo: 3.76
+Preco de venda: 5.11
+Quantidade em estoque: 455
+Lucro estimado: R$ 614.25
+---------------------------
