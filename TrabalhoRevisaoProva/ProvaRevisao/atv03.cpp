@@ -1,3 +1,5 @@
+//Elabore um algoritmo que receba inteiros e os armazene em uma matriz NxN. Imprima a matriz de tamanho NxN e imprima tambem a matriz sem a primeira linha e sem a primeira coluna
+
 #include <iostream>
 using namespace std;
 
